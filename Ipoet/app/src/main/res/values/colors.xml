@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#B91004</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="poem_title_color">#DB1D1D</color>
+    <color name="black">#000000</color>
+    <color name="item_color">#F79508</color>
+    <color name="widget_text">#FFFFFF</color>
+    <color name="white">#FFFEFE</color>
+</resources>

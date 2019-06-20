@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/authors"
+        android:title="@string/authors_menu" />
+    <item
+        android:id="@+id/titles"
+        android:title="@string/titles_menu" />
+    <item
+        android:id="@+id/favourites"
+        android:title="@string/favourites_menu" />
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/feedback_menu" />
+    <item
+        android:id="@+id/sign_out"
+        android:title="@string/sign_out_menu" />
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "62298329031",
+    "firebase_url": "https://ipoet-1560182396292.firebaseio.com",
+    "project_id": "ipoet-1560182396292",
+    "storage_bucket": "ipoet-1560182396292.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62298329031:android:13734543ed56f64d",
+        "android_client_info": {
+          "package_name": "com.example.ipoet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62298329031-ed7lb945cug414ggkbvvft880iam8bq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOD3r3kBhmaVWhdp7xRpE98k97AWWEDF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62298329031-ed7lb945cug414ggkbvvft880iam8bq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

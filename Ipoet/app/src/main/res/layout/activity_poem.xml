@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PoemActivity" >
+
+    <TextView
+        android:id="@+id/poem_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/poem_title"
+        android:textColor="@color/poem_title_color"
+        android:textSize="@dimen/title_size" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/author_label"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:text="@string/author"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/margin"/>
+
+        <TextView
+            android:id="@+id/author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author_name" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/poem_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/poem"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/margin"/>
+
+    <TextView
+        android:id="@+id/poem_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/poem_sample"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="@dimen/margin"/>
+
+    <Button
+        android:id="@+id/fav_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addToFav"
+        android:text="@string/ADD_TO_FAV" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adsView"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/AD_ID" />
+</LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
